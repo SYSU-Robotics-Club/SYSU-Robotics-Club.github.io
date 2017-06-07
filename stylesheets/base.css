@@ -1,0 +1,38 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #3498db;
+}
+
+.footer-copyright-text {
+    float: left;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+
+.poster-text {
+    font-size: 20px;
+    float: right;
+    color: #ffffff;
+    margin: 15px 0 0 0;
+}
+
+html {
+    background-color: #eeeeee;
+}
